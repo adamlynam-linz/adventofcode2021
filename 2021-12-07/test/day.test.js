@@ -22,5 +22,5 @@ test('real input part 1', () => {
 test('real input part 2', () => {
   fs = require('fs');
   data = fs.readFileSync('input', 'utf8');
-  expect(parttwo(data)).toBe(4);
+  expect(parttwo(data)).toBe(101571302);
 });
